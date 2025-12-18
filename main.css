@@ -1,0 +1,139 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    line-height: 1.6;
+    /* max-width: 900px; */
+    margin: 20px auto;
+    /* padding: 0 15px; */
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+}
+
+nav {
+    background-color: #f2f0ed;
+    width: 100%;
+}
+
+.nav-container {
+    max-width: 1200px;
+    /* center content */
+    margin: 0;
+    padding: 16px 24px;
+    background-color: #f2f0ed;
+    width: 100%;
+}
+
+nav ul {
+    font-size: 14px;
+    gap: 24px;
+    list-style: none;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: flex;
+    /* gap: 24px; */
+    /* list-style: none; */
+    margin: 0;
+    /* padding: 16px 24px; */
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline;
+    text-decoration: none;
+    /* margin-left: 13px; */
+    color: #6d6c6b;
+}
+
+nav li a {
+    color: #6d6c6b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li a:hover {
+    color: #cf7367;
+    text-decoration: #cf7367;
+    font-weight: bold;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article h2 {
+    color: #bf3c2b;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+article h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.meta {
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.author-bio {
+    display: flex;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.author-bio img {
+    width: 100px;
+    height: 100px;
+}
+
+.author-bio .bio-text p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.author-bio .bio-text a {
+    color: #c00;
+    text-decoration: none;
+}
+
+.author-bio .bio-text a:hover {
+    text-decoration: underline;
+}
